@@ -1,0 +1,24 @@
+{
+  "name": "demo-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.409.0",
+    "aws-sdk": "^2.1454.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.11.0",
+    "gulp": "^4.0.2",
+    "gulp-install": "^1.1.0",
+    "http": "0.0.1-security",
+    "multer-s3": "^3.0.1",
+    "path": "^0.12.7"
+  }
+}
